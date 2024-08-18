@@ -1,23 +1,40 @@
-import './ListPlayer.css';
+import './Popup.css';
 
-export const ListPlayer = () => {
+export const Popup = ({ functionToCall }) => {
+    const handleAddActive = () => {
+        document.body.classList.add('active');
+    };
 
+    const handleRemoveActive = () => {
+        document.body.classList.remove('active');
+    };
+
+    functionToCall();  // Cette fonction est appelée dès que le composant est rendu.
 
     return (
-        <div className="m-dropdown">
-            <div className="e-button open">
-                Tu as battu...
-                <div className="e-burger">
-                    <img src="https://cdn-icons-png.flaticon.com/128/5569/5569495.png" alt="Chess Pawn" className="chess-pawn"/>
+        <>
+            <div className="overlay"></div>
+            <div className="wrapper">
+                <div className="popup">
+                    <div className="popup-inside">
+                        <div className="backgrounds">
+                            <div className="background"></div>
+                            <div className="background background2"></div>
+                            <div className="background background3"></div>
+                            <div className="background background4"></div>
+                            <div className="background background5"></div>
+                            <div className="background background6"></div>
+                        </div>
+                    </div>
+                    <div className="content">
+                        <div className="content-wrapper">
+                            <h1>Well done</h1>
+                            <p>Do you like it?</p>
+                            <p className="try-again" onClick={handleRemoveActive}>Yes! I will try again</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <ul className="e-list">
-                <li><a href="1">Item 1</a></li>
-                <li><a href="2">Item 2</a></li>
-                <li><a href="3">Item 3</a></li>
-                <li><a href="4">Item 4</a></li>
-                <li><a href="5">Item 5</a></li>
-            </ul>
-        </div>
-    )
-}
+        </>
+    );
+};

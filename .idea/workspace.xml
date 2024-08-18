@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e3e0a9f-4db4-4121-812e-fdf13ee16007" name="Changes" comment="set up 2 screens">
-      <change afterPath="$PROJECT_DIR$/chesscasa/src/Popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chesscasa/src/Popup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/database.rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/database.rules.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chesscasa/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chesscasa/src/ListPlayer.css" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chesscasa/src/ListPlayer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chesscasa/src/Popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/Popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chesscasa/src/Popup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/Popup.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1723825226473" duration="347000" />
       <workItem from="1723825592880" duration="3505000" />
       <workItem from="1723904337058" duration="18471000" />
-      <workItem from="1723985392640" duration="16745000" />
+      <workItem from="1723985392640" duration="20571000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -135,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723985493754</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="set up 2 screens">
+      <option name="closed" value="true" />
+      <created>1724018575520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724018575520</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
