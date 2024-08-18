@@ -4,22 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e3e0a9f-4db4-4121-812e-fdf13ee16007" name="Changes" comment="test6">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chesscasa/src/CheckerBoard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chesscasa/src/CheckerBoard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chesscasa/src/ListPlayer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chesscasa/src/ListPlayer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/firebase-hosting-merge.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/firebase-hosting-pull-request.yml" beforeDir="false" />
+    <list default="true" id="3e3e0a9f-4db4-4121-812e-fdf13ee16007" name="Changes" comment="set up 2 screens">
+      <change afterPath="$PROJECT_DIR$/chesscasa/src/Popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chesscasa/src/Popup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chesscasa/.firebase/hosting.ZGlzdA.cache" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chesscasa/database.rules.json" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/database.rules.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chesscasa/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chesscasa/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chesscasa/src/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/firebase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chesscasa/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/chesscasa/src/main.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +51,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2kkQj18OCuTHCvNG2L1cQcze3lz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,7 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "JavaScript.Libraries",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -106,6 +101,7 @@
       <workItem from="1723825226473" duration="347000" />
       <workItem from="1723825592880" duration="3505000" />
       <workItem from="1723904337058" duration="18471000" />
+      <workItem from="1723985392640" duration="16745000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -131,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723828998708</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set up 2 screens">
+      <option name="closed" value="true" />
+      <created>1723985493754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723985493754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +168,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
-    <option name="LAST_COMMIT_MESSAGE" value="test3" />
+    <MESSAGE value="set up 2 screens" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up 2 screens" />
   </component>
 </project>

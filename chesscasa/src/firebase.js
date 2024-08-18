@@ -3,13 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getAuth, signInAnonymously } from "firebase/auth"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import {getDatabase, ref, remove, onDisconnect} from "firebase/database"
+import {getDatabase, ref, remove, onDisconnect, update} from "firebase/database"
 
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyAuNwRUJ8Uxjp1uS_KIYb0ehkuz03OCZAQ",
     authDomain: "chesscasa-f1975.firebaseapp.com",
+    databaseURL: "https://chesscasa-f1975-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "chesscasa-f1975",
     storageBucket: "chesscasa-f1975.appspot.com",
     messagingSenderId: "66225634648",
@@ -27,11 +28,6 @@ let uid = ""
 signInAnonymously(auth)
     .then(user => {
         uid = user.user.uid
-        if (uid) {
-            const presenceRef = ref(database, `users/${uid}/disconnected`)
-            remove(presenceRef).then()
-            onDisconnect(presenceRef).set(true).then()
-        }
     })
     .catch((error) => {
         const errorCode = error.code
