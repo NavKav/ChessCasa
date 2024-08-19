@@ -28,9 +28,9 @@ export const Popup = ({ functionToCall }) => {
                     </div>
                     <div className="content">
                         <div className="content-wrapper">
-                            <h1>Well done</h1>
-                            <p>Do you like it?</p>
-                            <p className="try-again" onClick={handleRemoveActive}>Yes! I will try again</p>
+                            <h1>MERCI</h1>
+                            <p>Le résultat a été enregistré avec succès.</p>
+                            <p className="try-again" onClick={handleRemoveActive}>OK</p>
                         </div>
                     </div>
                 </div>

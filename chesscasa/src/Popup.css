@@ -72,7 +72,7 @@ p:last-of-type {
     display: inline-block;
     position: relative;
     z-index: 2;
-    background: linear-gradient(to right,#504bff,#4cfa63);
+    background: linear-gradient(to right,#B58863,#F0D9B5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -83,7 +83,7 @@ p:last-of-type {
     height: 6px;
     width: 6px;
     border-radius: 50%;
-    box-shadow: 0 0 10px #504bff, 0 0 20px #504bff, 0 0 30px #504bff;
+    box-shadow: 0 0 10px #B58863, 0 0 20px #B58863, 0 0 30px #B58863;
     transition: all 0.5s ease;
 }
 .button-circle2 {
@@ -93,17 +93,17 @@ p:last-of-type {
 .button-circle3 {
     left: auto;
     right: 0;
-    box-shadow: 0 0 10px #4cfa63, 0 0 20px #4cfa63, 0 0 30px #4cfa63;
+    box-shadow: 0 0 10px #F0D9B5, 0 0 20px #F0D9B5, 0 0 30px #F0D9B5;
 }
 .button-circle4 {
     left: auto;
     top: auto;
     bottom: 0;
     right: 0;
-    box-shadow: 0 0 10px #4cfa63, 0 0 20px #4cfa63, 0 0 30px #4cfa63;
+    box-shadow: 0 0 10px #F0D9B5, 0 0 20px #F0D9B5, 0 0 30px #F0D9B5;
 }
 .button:hover {
-    box-shadow: -15px 0 70px -15px #504bff, 15px 0 70px -15px #4cfa63;
+    box-shadow: -15px 0 70px -15px #B58863, 15px 0 70px -15px #F0D9B5;
 }
 .button:hover .button-circle1 {
     transform: translate(-15px,-15px) scale(0);
@@ -160,7 +160,7 @@ p:last-of-type {
     right: var(--offset);
     bottom: var(--offset);
     top: var(--offset);
-    background: linear-gradient(to right,#504bff,#4cfa63);
+    background: linear-gradient(to right,#B58863,#F0D9B5);
     transform: scale(0);
     transition: all 0.5s ease 0s;
     border-radius: 50%;
@@ -172,7 +172,7 @@ p:last-of-type {
     right: var(--offset);
     bottom: var(--offset);
     top: var(--offset);
-    background: linear-gradient(to right,#6665ff,#69fa7f);
+    background: linear-gradient(to right, #b58863,#F0D9B5);
     transform: scale(0);
     transition: all 0.5s ease 0.1s;
 }
@@ -183,7 +183,7 @@ p:last-of-type {
     right: var(--offset);
     bottom: var(--offset);
     top: var(--offset);
-    background: linear-gradient(to right,#8583ff,#85fa99);
+    background: linear-gradient(to right,#B58863,#F0D9B5);
     z-index: 2;
     transition: all 0.5s ease 0.2s;
 }
@@ -194,7 +194,7 @@ p:last-of-type {
     right: var(--offset);
     bottom: var(--offset);
     top: var(--offset);
-    background: linear-gradient(to right,#aaaaff,#a7fab7);
+    background: linear-gradient(to right,#B58863,#F0D9B5);
     z-index: 3;
     transition: all 0.5s ease 0.3s;
 }
@@ -205,7 +205,7 @@ p:last-of-type {
     right: var(--offset);
     bottom: var(--offset);
     top: var(--offset);
-    background: linear-gradient(to right,#c9c8ff,#c3fad1);
+    background: linear-gradient(to right,#c9c8ff,#F0D9B5);
     z-index: 4;
     transition: all 0.5s ease 0.4s;
 }
@@ -247,7 +247,7 @@ body.active .popup {
 }
 body.active .popup-inside {
     border-radius: 0;
-    box-shadow: -50px 0 200px -50px #504bff, 50px 0 200px -50px #4cfa63;
+    box-shadow: -50px 0 200px -50px #B58863, 50px 0 200px -50px #F0D9B5;
 }
 body.active .background {
     transform: scale(1);

@@ -1,0 +1,33 @@
+.array-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.array-cell {
+    font-size: 24px;
+}
+
+.array-cell:hover {
+    background-color: #f1f1f1;
+}
